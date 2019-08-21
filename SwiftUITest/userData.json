@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Harry Potter",
+        "email": "h.potter@hogwarts.com",
+        "image": "Harry",
+        "likes": "3.2K",
+        "text": "Albus Severus, you were named for two headmasters of Hogwarts. One of them was a Slytherin and he was probably the bravest man I ever knew."
+    },
+    {
+        "name": "Hermione Granger",
+        "email": "h.granger@hogwarts.com",
+        "image": "Hermione",
+        "likes": "1.3K",
+        "id": 2,
+        "text": "I hope you're pleased with yourselves. We could all have been killed — or worse, expelled. Now if you don't mind, I'm going to bed."
+    },
+    {
+        "name": "Ron Weasley",
+        "email": "r.weasley@hogwarts.com",
+        "image": "Ron",
+        "likes": "2.2K",
+        "id": 3,
+        "text": "Why spiders? Why couldn’t it be ‘follow the butterflies’?"
+    },
+    {
+        "id": 4,
+        "name": "Drako Malfoy",
+        "email": "d.malfoy@hogwarts.comt",
+        "image": "Malfoy",
+        "likes": "1.1K",
+        "text": "When the Dark Lord takes over, is he going to care how many O.W.L.s or N.E.W.T.s anyone’s got? Of course he isn’t. . . . It’ll be all about the kind of service he received, the level of devotion he was shown."
+    },
+    {
+        "name": "Albus Dumbledore",
+        "email": "a.dumbledore@hogwarts.com",
+        "image": "Dumbledore",
+        "likes": "23K",
+        "id": 5,
+        "text": "It matters not what someone is born, but what they grow to be."
+    },
+    {
+        "name": "Lord Voldemort",
+        "email": "t.riddle@hogwarts.com",
+        "image": "Voldemort",
+        "likes": "19K",
+        "id": 6,
+        "text": "Avada Kedavra!"
+    },
+    {
+        "name": "Severus Snape",
+        "email": "s.snape@hogwarts.com",
+        "image": "Snape",
+        "likes": "123.3K",
+        "id": 7,
+        "text": "Always."
+    },
+    {
+        "name": "Minerva McGonagall",
+        "email": "m.mcGonagall@hogwarts.com",
+        "image": "Minerva",
+        "likes": "13.3K",
+        "id": 8,
+        "text": "I’m disgusted. Four students out of bed in one night! I’ve never heard of such a thing before! You, Miss Granger, I thought you had more sense. As for you, Mr. Potter, I thought Gryffindor meant more to you than this. All three of you will receive detentions — yes, you too, Mr. Longbottom, nothing gives you the right to walk around school at night, especially these days, it’s very dangerous — and fifty points will be taken from Gryffindor."
+    },
+    {
+        "name": "Rubeus Hagrid",
+        "email": "r.hagrid@hogwarts.com",
+        "image": "Hugrid",
+        "likes": "14.3K",
+        "id": 9,
+        "text": "True, I haven’t introduced myself. Rubeus Hagrid, Keeper of Keys and Grounds at Hogwarts."
+    }
+]

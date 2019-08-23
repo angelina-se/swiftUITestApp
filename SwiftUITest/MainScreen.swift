@@ -9,15 +9,21 @@
 import SwiftUI
 
 struct MainScreen: View {
-    var categories: [String : [ProductsResponse]] {
+    var categories: [String: [ProductsResponse]] {
         .init(grouping: materialResponse, by: {$0.category.rawValue})
     }
     var body: some View {
         NavigationView {
             List {
-                Text("Category")
-            }
-        }.navigationBarTitle("Harry Potter")
+                Cell(character: harryPotter).listRowInsets(EdgeInsets())
+                ForEach(self.categories.keys.sorted(), id: \.self) { key in
+                    ProductRow(categoryName: key, items: self.categories[key]!)
+                }.listRowInsets(EdgeInsets())
+                NavigationLink(destination: QuotesList()) {
+                    Text("Quotes").font(.title)
+                }
+            }.navigationBarTitle(Text("Harry Potter"))
+        }
     }
     
 }
